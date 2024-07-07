@@ -1,0 +1,80 @@
+.post-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  min-height: 100vh;
+  background-color: #161929;
+  gap: 10px;
+}
+
+.post-heading {
+  color: #ffffff;
+  font-family: "Gotham";
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.content-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: #1e2137;
+  padding: 10px;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.post-title-heading {
+  color: #ffffff;
+  font-family: "Gotham";
+}
+
+.post-content {
+  color: #ffffff;
+  font-family: "Poppins";
+}
+
+.post-image {
+  width: 100%;
+}
+
+.post-edit-delete-btn-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.edit-btn {
+  background-color: #1f87dc;
+  height: 40px;
+  color: #ffffff;
+  font-family: "poppins";
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.delete-btn {
+  background-color: #dc1f41;
+  height: 40px;
+  color: #ffffff;
+  font-family: "poppins";
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.create-new-post-btn-card {
+  display: flex;
+  justify-content: end;
+}
+
+.create-new-post-btn {
+  background-color: #1f87dc;
+  height: 40px;
+  color: #ffffff;
+  font-family: "poppins";
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+}

@@ -1,0 +1,57 @@
+.create-post-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 50px;
+  height: 100vh;
+  background-color: #161929;
+}
+
+.create-post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: #1e2137;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.create-post-heading {
+  color: #ffffff;
+  font-family: "Gotham";
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.create-tital-input {
+  height: 40px;
+  border-radius: 8px;
+  padding: 5px;
+  padding-left: 5px;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+}
+
+.create-content-tital {
+  border-radius: 8px;
+  padding: 5px;
+  padding-left: 5px;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+}
+
+.submit-button-card {
+  display: flex;
+  justify-content: end;
+}
+
+.submit-button {
+  background-color: #1f87dc;
+  height: 40px;
+  color: #ffffff;
+  font-family: "poppins";
+  border: none;
+  border-radius: 5px;
+}
