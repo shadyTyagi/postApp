@@ -24,7 +24,7 @@ View Posts: The main screen displays all the posts with their titles, content, a
 
 Create Post: Click on the "Create New Post" button to navigate to the Create Post Screen. Fill in the title, content, and optionally upload an image. Click the "Create Post" button to save the post.
 
-Edit Post: On the main screen, click the "Edit" button next to a post to navigate to the Edit Post Screen. Update the title, content, or image, and click the "Save Changes" top to update the post.
+Edit Post: On the main screen, click the "Edit" button next to a post to navigate to the Edit Post Screen. Update the title, content, or image, and click the "Save Changes" bottom to update the post.
 
 Delete Post: On the main screen, click the "Delete" button next to a post to remove it from the list.
 
