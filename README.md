@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# React Posts App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React application that allows users to create, edit, and delete posts. Each post can include an image, title, and content. The application consists of two main screens: a Posts Display Screen and a Create Post Screen. The Posts Display Screen showcases all the created posts and allows users to edit or delete them. The Create Post Screen allows users to create new posts.
 
-## Available Scripts
+# Features
+Display all posts with title, content, and image
+Create new posts with a title, content, and image
+Edit existing posts
+Delete posts
+Persist posts in local storage
 
-In the project directory, you can run:
+# Screens
+Posts Display Screen
+Displays all the created posts
+Each post includes an option to edit or delete
+A button at the bottom to create a new post
 
-### `npm start`
+# Create Post Screen
+A form to create a new post with title, content, and image
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Usage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+View Posts: The main screen displays all the posts with their titles, content, and images.
 
-### `npm test`
+Create Post: Click on the "Create New Post" button to navigate to the Create Post Screen. Fill in the title, content, and optionally upload an image. Click the "Create Post" button to save the post.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Edit Post: On the main screen, click the "Edit" button next to a post to navigate to the Edit Post Screen. Update the title, content, or image, and click the "Save Changes" button to update the post.
 
-### `npm run build`
+Delete Post: On the main screen, click the "Delete" button next to a post to remove it from the list.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+git clone https://github.com/shadyTyagi/postApp.git
 
-### `npm run eject`
+cd post-app
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Install the dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm start
