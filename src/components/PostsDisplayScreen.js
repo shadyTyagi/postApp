@@ -7,14 +7,16 @@ const PostsDisplayScreen = () => {
     {
       id: 1,
       title: "First Post",
-      content: "This is the content of the first post.",
+      content:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu venenatis diam. Nunc porta imperdiet enim nec fringilla. Curabitur pellentesque tempus augue, a tincidunt ligula pellentesque at.",
       image:
         "https://res.cloudinary.com/dzaz9bsnw/image/upload/v1718530241/Blue_Sky_White_Clouds_Lake_Water_Reflection_Empty_Mirror_Background_Blue_Sky_And_White_Clouds_Advertising_Background_Sky_Background_Image_And_Wallpaper_for_Free_Download_u4zrh3.jpg",
     },
     {
       id: 2,
       title: "Second Post",
-      content: "This is the content of the second post.",
+      content:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu venenatis diam. Nunc porta imperdiet enim nec fringilla. Curabitur pellentesque tempus augue, a tincidunt ligula pellentesque at.",
       image:
         "https://res.cloudinary.com/dzaz9bsnw/image/upload/v1718530187/Download_Scattered_clouds_in_the_sky_indicating_a_change_in_weather__for_free_rywgji.jpg",
     },
